@@ -6,8 +6,6 @@ Run the dev server:
 npm run dev
 ```
 
-### Notes
-
 ## Aproach
 
 - Looked at `lessons.json` and mostly understood the structure of the whole project
