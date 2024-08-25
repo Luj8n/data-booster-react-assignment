@@ -23,6 +23,7 @@ npm run dev
 - Handle lesson and exercise types better (something like a union type)
 - Display a modal (instead of an alert) when the hint button is pressed
 - Possibly split up the Exercise component into more components
+- Make error screens
 
 ## Things that would need some discussion
 
