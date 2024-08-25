@@ -70,7 +70,7 @@ export default function Exercise() {
           <HintIcon />
         </button>
       )}
-      <div className="pt-20 pb-10 px-80 text-white">
+      <div className="pt-20 pb-10 lg:px-80 md:px-40 px-2 text-white">
         {exercise.resourcetype === "VideoExercise" ? (
           <VideoExercise exercise={exercise} />
         ) : exercise.resourcetype === "MultipleChoiceExercise" ? (
