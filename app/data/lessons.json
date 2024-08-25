@@ -1,0 +1,141 @@
+{
+  "lessons": [
+    {
+      "id": "465ad295-51be-4743-b879-96fc3ab3d388",
+      "exercises": [
+        {
+          "id": "af63d9eb-1cbf-44fa-ab37-942fae2d8eaf",
+          "course_id": "9ebcf921-5c9d-4048-8c6f-033888e5c005",
+          "next_exercise_id": "596cf202-bd6c-4623-9482-be95f76a4837",
+          "previous_exercise_id": null,
+          "is_completed": false,
+          "title": "The BADIR framework",
+          "order": 0,
+          "url": "https://player.vimeo.com/video/823111497?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+          "lesson": "465ad295-51be-4743-b879-96fc3ab3d388",
+          "resourcetype": "VideoExercise"
+        },
+        {
+          "id": "596cf202-bd6c-4623-9482-be95f76a4837",
+          "course_id": "9ebcf921-5c9d-4048-8c6f-033888e5c005",
+          "next_exercise_id": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+          "previous_exercise_id": "af63d9eb-1cbf-44fa-ab37-942fae2d8eaf",
+          "is_completed": false,
+          "answers": [
+            {
+              "id": "7dc54c0b-7be9-451e-b3e5-5ea944179904",
+              "answer": "Business question, Analysis plan, Data collection, Insights, Recommendations",
+              "exercise": "596cf202-bd6c-4623-9482-be95f76a4837",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "e15a2a78-0d7d-4a51-b714-e092aa4fa251",
+              "answer": "Business problem, Analysis, Data collection, Ingestion, Recommendations",
+              "exercise": "596cf202-bd6c-4623-9482-be95f76a4837",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "2947a423-0b24-4ea1-96f9-6427fb661902",
+              "answer": "Business data, Analysis insights, Review plan",
+              "exercise": "596cf202-bd6c-4623-9482-be95f76a4837",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "196147aa-4455-4863-9f58-17b113971bda",
+              "answer": "Business question, Data integration, Recommendations",
+              "exercise": "596cf202-bd6c-4623-9482-be95f76a4837",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            }
+          ],
+          "title": "BADIR framework basics",
+          "order": 1,
+          "description": "<p><span>What does BADIR stand for?</span></p>",
+          "hint": "<p><span>There are 5 components and the first is the business question</span></p>",
+          "lesson": "465ad295-51be-4743-b879-96fc3ab3d388",
+          "resourcetype": "MultipleChoiceExercise"
+        },
+        {
+          "id": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+          "course_id": "9ebcf921-5c9d-4048-8c6f-033888e5c005",
+          "next_exercise_id": "91388a61-6baf-413e-a9fd-bd18c6e90ef6",
+          "previous_exercise_id": "596cf202-bd6c-4623-9482-be95f76a4837",
+          "is_completed": false,
+          "answers": [
+            {
+              "id": "d26f0c53-a180-423c-9db2-1293ab6497cf",
+              "answer": "To gather as much data for analysis as possible",
+              "exercise": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "6e375d51-e673-4e42-bbd6-9871a35157ac",
+              "answer": "To ensure the analysis is focused and aligned with business objectives",
+              "exercise": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "fee6f1f3-b20b-4213-bfc2-140fd07344f1",
+              "answer": "To ensure compliance with regulations",
+              "exercise": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "c3271bb6-74db-4078-a516-0fb9426db1d0",
+              "answer": "To speed up analysis",
+              "exercise": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            }
+          ],
+          "title": "The importance of Business Questions",
+          "order": 2,
+          "description": "<p><span>Why is it important to start with a clear business question in the BADIR framework?</span></p>\r\n\r\n<p><img src=\"https://media-files20240727134039506700000001.s3.amazonaws.com/2024/08/15/image.png\" style=\"height:402px; width:350px\" /></p>",
+          "hint": "<p><span>We want to deliver impactful recommendations to the business goals this we need to understand the deeper questions to align</span></p>",
+          "lesson": "465ad295-51be-4743-b879-96fc3ab3d388",
+          "resourcetype": "MultipleChoiceExercise"
+        },
+        {
+          "id": "91388a61-6baf-413e-a9fd-bd18c6e90ef6",
+          "course_id": "9ebcf921-5c9d-4048-8c6f-033888e5c005",
+          "next_exercise_id": "40489080-5bdc-497b-8068-1974db3405ec",
+          "previous_exercise_id": "c5783abf-f5fd-4367-b7ca-89801dca5ff5",
+          "is_completed": false,
+          "answers": [
+            {
+              "id": "e5f53189-391b-45ae-bd12-b56e11571d37",
+              "answer": "By conducting a broad exploratory analysis of all review data without a specific focus",
+              "exercise": "91388a61-6baf-413e-a9fd-bd18c6e90ef6",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "93e4d586-428a-4cec-b96d-9bad800354b6",
+              "answer": "By only analyzing data from the final stage of the process",
+              "exercise": "91388a61-6baf-413e-a9fd-bd18c6e90ef6",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "25468a32-5e65-4fec-bc40-20debf32a145",
+              "answer": "By using only historical data without considering recent changes in the process",
+              "exercise": "91388a61-6baf-413e-a9fd-bd18c6e90ef6",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            },
+            {
+              "id": "e71b2ad6-da93-4b2c-ad70-cea2311370ae",
+              "answer": "By asking questions to determine the stages in the process which leads to developing an analysis plan, then collecting data on each stage, followed by targeted analysis to identify error patterns.",
+              "exercise": "91388a61-6baf-413e-a9fd-bd18c6e90ef6",
+              "resourcetype": "MultipleChoiceExerciseAnswerText"
+            }
+          ],
+          "title": "Applying BADIR",
+          "order": 3,
+          "description": "<p><span>How can the BADIR framework be applied to identify the stage at which errors in an internal process occur at ING, and what steps should be included in the analysis plan?</span></p>",
+          "hint": "<p><span>Consider the need for specific questions, data collection, and focused analysis methods.</span></p>",
+          "lesson": "465ad295-51be-4743-b879-96fc3ab3d388",
+          "resourcetype": "MultipleChoiceExercise"
+        }
+      ],
+      "title": "The BADIR Framework",
+      "order": 0,
+      "chapter": "7a466ad5-c7b0-4bf3-9dc2-79fc61851607"
+    }
+  ]
+}
