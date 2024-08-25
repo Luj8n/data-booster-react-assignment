@@ -1,40 +1,36 @@
-# Welcome to Remix!
-
-- 📖 [Remix docs](https://remix.run/docs)
-
 ## Development
 
 Run the dev server:
 
-```shellscript
+```bash
 npm run dev
 ```
 
-## Deployment
+### Notes
 
-First, build your app for production:
+## Aproach
 
-```sh
-npm run build
-```
+- Looked at `lessons.json` and mostly understood the structure of the whole project
+- Created the routes
+- Tried to implement the exercise page using the Figma design one component at a time
+- Refactored the code a little bit
+- Moved the icons to their own folder
+- Made it more mobile friendly by changing CSS
 
-Then run the app in production mode:
+## Things that could be improved with more time
 
-```sh
-npm start
-```
+- Change some HTML tags from `div` to others (like `section`, `article`, etc.)
+- Specify the color palette in the tailwind config and use that instead of random hex colors
+- Finalize the spacing between elements
+- Handle lesson and exercise types better (something like a union type)
+- Display a modal (instead of an alert) when the hint button is pressed
+- Possibly split up the Exercise component into more components
 
-Now you'll need to pick a host to deploy it to.
+## Things that would need some discussion
 
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- Raw HTML in an exercise's description and the hint. Can the data (`lessons.json`) be trusted? Also how should images be handled?
+- Why does the last exercise lead to a non existant exercise?
+- How should `is_completed` be displayed?
+- Can you skip questions?
+- What about other lessons? And what are chapters?
+- Can there be more exercise types than multiple choice questions and videos?
