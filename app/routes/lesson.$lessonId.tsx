@@ -7,15 +7,15 @@ export async function loader({ params }: LoaderFunctionArgs) {
   if (!lesson) {
     throw new Response(null, {
       status: 404,
-      statusText: "Not Found",
+      statusText: "No lesson found",
     });
   }
 
-  // TODO: find first by order
+  // TODO: probably should find the first exercise by the order property
 
   if (lesson.exercises.length < 1 || !lesson.exercises[0].id) {
     throw new Response(null, {
-      status: 500,
+      status: 404,
       statusText: "No exercise found",
     });
   }
